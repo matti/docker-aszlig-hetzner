@@ -1,4 +1,6 @@
-# aszlig/hetzner docker wrapper
+# aszlig-hetzner
+
+wraps aszlig/hetzner python `hetznerctl`
 
     docker run -it \
       -e HETZNER_USERNAME="user" \
