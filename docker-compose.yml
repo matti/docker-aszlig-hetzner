@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  app:
+    build: .
+    image: mattipaksula/aszlig-hetzner
+    environment:
+      - HETZNER_DEV=yes
+      - HETZNER_USERNAME
+      - HETZNER_PASSWORD
+    volumes:
+      - ./app:/app
